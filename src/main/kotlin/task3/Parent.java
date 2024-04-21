@@ -8,7 +8,7 @@ public class Parent {
     }
 
     void displayM() {
-        System.out.println("This is from parent : m = " + m);
+        System.out.println("This is from parent: m = " + m);
     }
 }
 
@@ -20,12 +20,12 @@ class Child extends Parent {
     }
 
     void displayN() {
-        System.out.println("This is from child : n = " + n);
+        System.out.println("This is from child: n = " + n);
     }
 }
 
 class ChildDemo {
-    public static void main(String arg[]) {
+    public static void main(String[] args) {
         Child c = new Child();
         c.setM(10);
         c.setN(20);
@@ -33,3 +33,5 @@ class ChildDemo {
         c.displayN();
     }
 }
+
+

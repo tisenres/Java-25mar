@@ -10,3 +10,5 @@ class StudentTest {
         s.putData();
     }
 }
+
+

@@ -13,9 +13,12 @@ public class Employee {
     }
 
     public void displayData() {
-        System.out.println("Employee details are :");
-        System.out.println("Name :" + name);
-        System.out.println("ID :" + id);
-        System.out.println("Address :" + address);
+        System.out.println("Employee details are: ");
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Address: " + address);
     }
 }
+
+
+
